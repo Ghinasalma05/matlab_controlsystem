@@ -1,3 +1,4 @@
+PI code : https://github.com/Ghinasalma05/matlab_controlsystem.git
 # Proportional and Integral Control System
 Diminta untuk mensimulasikan transfer function ![image](https://user-images.githubusercontent.com/82716787/191629362-3ede3b8e-d031-4492-97f2-39cd364b7d2f.png)
 menggunakan sistem kontrol Proportional dan Integral dengan feedback gain:
