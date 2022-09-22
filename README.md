@@ -1,35 +1,81 @@
-# Proportional and Integral Control System
+# Proportional and Derivative Control System
 Diminta untuk mensimulasikan transfer function ![image](https://user-images.githubusercontent.com/82716787/191629362-3ede3b8e-d031-4492-97f2-39cd364b7d2f.png)
-menggunakan sistem kontrol Proportional dan Integral dengan feedback gain:
+menggunakan sistem kontrol Proportional dan Derivative dengan feedback gain:
   P: 1
-  I: (1,3,5,7,9)
+  D: (1,3,5,7,9)
 
 Hasil analisis 
+##Step Response:
 
-![image](https://user-images.githubusercontent.com/82716787/191630564-9958293a-9f63-41c6-ae48-a9cb23377822.png)
+![image](https://user-images.githubusercontent.com/82716787/191643226-7fa216c5-46a6-4dc4-afcc-26147990f454.png)
 
-System  :
+sys-i1:
 
-![image](https://user-images.githubusercontent.com/82716787/191629776-f6a40630-538f-49ee-9274-107e8a10a022.png)
+![image](https://user-images.githubusercontent.com/82716787/191644121-a816780c-bd41-4db9-852b-da5612ae9c2b.png)
 
-Control System  :
+sys-i3: 
 
-![image](https://user-images.githubusercontent.com/82716787/191629813-ee57224f-4c87-46db-bfe1-d73d1091b6a2.png)
+![image](https://user-images.githubusercontent.com/82716787/191644183-51d601d6-c5ab-4974-99da-bea7354d5faf.png)
 
-Step    :
+sys-i5:
 
-![image](https://user-images.githubusercontent.com/82716787/191630611-0b66f480-a0ca-41d1-b7e3-57623e37bfcf.png)
+![image](https://user-images.githubusercontent.com/82716787/191644247-89b8700e-7d14-457b-ac1d-9a85b316be08.png)
 
-![image](https://user-images.githubusercontent.com/82716787/191630012-6000f7d7-3dab-4c70-9027-4360e6e046f0.png)
+sys-i7:
 
-Ramp    :
+![image](https://user-images.githubusercontent.com/82716787/191644310-73c5d505-8d52-4ca3-8176-e0e8599d5fb6.png)
 
-![image](https://user-images.githubusercontent.com/82716787/191630677-48b75ded-0651-49b6-85c3-0dfb28f45cd3.png)
+sys-i9:
 
-![image](https://user-images.githubusercontent.com/82716787/191630093-3d81ee8d-9911-4585-8e08-56052094fea4.png)
+![image](https://user-images.githubusercontent.com/82716787/191644344-a0353f7e-3af9-4d2a-b9d8-93a26bfddad1.png)
 
-Impulse :
+##Impulse Response:
 
-![image](https://user-images.githubusercontent.com/82716787/191630704-5a4750de-a94c-4fe1-a439-0ec0ce0542e7.png)
+![image](https://user-images.githubusercontent.com/82716787/191643320-31eb5164-fa50-41c7-892f-4ef51c26749b.png)
 
-![image](https://user-images.githubusercontent.com/82716787/191630203-f8dfd218-96f5-48b8-8f54-d02f6b2a346c.png)
+sys-i1:
+
+![image](https://user-images.githubusercontent.com/82716787/191644854-c4deefd5-5a92-4f12-badb-803fbde860d5.png)
+
+sys-i3:
+
+![image](https://user-images.githubusercontent.com/82716787/191644892-a2116a0f-fbc5-49fc-be48-8d69884fc127.png)
+
+sys-i5:
+
+![image](https://user-images.githubusercontent.com/82716787/191644961-7f2bf119-7588-4a2c-8e5e-7da9c453291b.png)
+
+sys-i7:
+
+![image](https://user-images.githubusercontent.com/82716787/191644989-43ad2fb6-8126-4acd-8340-88ea025a3ff5.png)
+
+sys-i9:
+
+![image](https://user-images.githubusercontent.com/82716787/191645029-ca281fbc-34b1-4921-a47a-8610abeeebe6.png)
+
+
+##Ramp Response:
+
+![image](https://user-images.githubusercontent.com/82716787/191643392-29aa71f2-a28d-422c-b757-c8430cc662f0.png)
+
+sys-i1:
+
+![image](https://user-images.githubusercontent.com/82716787/191645275-daedc60a-1b48-4cdc-93a1-1f082d05221c.png)
+
+sys-i3:
+
+![image](https://user-images.githubusercontent.com/82716787/191645318-d7b03216-8264-46a1-ba64-a834e5841714.png)
+
+sys-i5:
+
+![image](https://user-images.githubusercontent.com/82716787/191645368-ce7e83bf-9193-416c-95d0-6c5224e86816.png)
+
+sys-i7:
+
+![image](https://user-images.githubusercontent.com/82716787/191645397-da1671c2-0db9-4ae9-a790-1ef7f9d143a6.png)
+
+sys-i9:
+
+![image](https://user-images.githubusercontent.com/82716787/191645427-873f7bd5-44f6-42a0-b52b-e719763d69ec.png)
+
+
