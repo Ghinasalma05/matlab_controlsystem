@@ -1,3 +1,5 @@
+link code edrivative system control: https://github.com/Ghinasalma05/matlab_controlsystem/blob/b1067c97339a6d8f2450ce5fd9b64a95f948bdb5/week5.m
+
 # Proportional and Derivative Control System
 Diminta untuk mensimulasikan transfer function ![image](https://user-images.githubusercontent.com/82716787/191629362-3ede3b8e-d031-4492-97f2-39cd364b7d2f.png)
 menggunakan sistem kontrol Proportional dan Derivative dengan feedback gain:
